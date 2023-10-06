@@ -44,5 +44,6 @@ class MoviedbDatasource extends MoviesDatasource{
     queryParameters:{
       'page':page
     });
+    return _jsonToMovies(response.data);
   }
 }
