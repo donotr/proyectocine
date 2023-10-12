@@ -6,7 +6,7 @@ import 'package:proyecto_cine/config/theme/app_theme.dart';
 
 
 Future<void> main() async{
-  await dotenv.load(fileName: '.env');
+  await dotenv.load(fileName:'.env');
 
   runApp(const ProviderScope (child: MainApp()));
 }
