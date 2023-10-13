@@ -35,7 +35,7 @@ class MoviedbDatasource extends MoviesDatasource{
         'page': page
       }
       );
-
+//devuelve un json con la estructura de la clase movies
       return _jsonToMovies(response.data);
   }
 
@@ -46,6 +46,7 @@ class MoviedbDatasource extends MoviesDatasource{
     queryParameters:{
       'page':page
     });
+    //devuelve un json con la estructura de la clase movies
     return _jsonToMovies(response.data);
   }
 
@@ -56,6 +57,7 @@ class MoviedbDatasource extends MoviesDatasource{
     queryParameters:{
       'page':page
     });
+    //devuelve un json con la estructura de la clase movies
     return _jsonToMovies(response.data);
   }
 
@@ -66,6 +68,7 @@ class MoviedbDatasource extends MoviesDatasource{
     queryParameters:{
       'page':page
     });
+    //devuelve un json con la estructura de la clase movies
     return _jsonToMovies(response.data);
   }
 

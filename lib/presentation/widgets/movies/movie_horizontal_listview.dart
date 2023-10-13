@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:animate_do/animate_do.dart';
 import 'package:proyecto_cine/domain/entities/movie.dart';
 
-
+//configuracion propia de como se vera la lista en horizontal.
 class MovieHorizontalListview extends StatefulWidget {
 
   final List<Movie> movies;
